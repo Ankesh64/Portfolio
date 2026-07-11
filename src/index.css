@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: poppins, sans-serif;
+}
+
+h1,h2{
+  font-family: roboto, sans-serif;
+}
+
+@layer utilities{
+  .gradient{
+    background: linear-gradient(-45deg , #302b63, #00bf8f, #1cd8d2);
+  }
+}
+
