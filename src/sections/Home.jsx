@@ -1,11 +1,11 @@
 import { useEffect, useRef, useMemo } from "react";
 import { motion } from "framer-motion";
-import { FaGithub,  FaInstagram } from "react-icons/fa6";
+import { FaGithub, FaLinkedin} from "react-icons/fa6";
 import React from "react";
 import ParticlesBackground from "../components/ParticlesBackground";
 
 const socials = [
-  { Icon: FaInstagram, label: "Instagram", href: "https://www.instagram.com/ig_ankesh_/" },
+  { Icon: FaLinkedin, label: "Linkedin", href: "https://www.linkedin.com/in/ankesh-vaibhaw-6510a6331/" },
   { Icon: FaGithub, label: "Github", href: "https://github.com/Ankesh64" },
 ]
 
