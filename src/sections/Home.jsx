@@ -248,7 +248,7 @@ export default function Home() {
             </motion.a>
           ))}
         </motion.div>
-
+        
       </div>
 
     </section>
